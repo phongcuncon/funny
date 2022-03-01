@@ -35,6 +35,11 @@ header{
     background-repeat: no-repeat;
     background-size:cover ;
     border-bottom: 8px solid green ;
+    padding: 120px;
+}
+header>span{
+    display: flex;
+    justify-content: left;
 }
 nav{
     padding: 10px 300px;
