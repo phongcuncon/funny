@@ -36,10 +36,26 @@ header{
     background-size:cover ;
     border-bottom: 8px solid green ;
     padding: 120px;
+    display: inline-block;
+    position: absolute;
 }
 header>span{
+
     display: flex;
     justify-content: left;
+}
+.search_produce{ 
+  padding: 5px 12px;
+}
+.search_produce>input{
+  margin: 50px;
+  width: 50%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 12px;
+  border-radius: 8px;
+
 }
 nav{
     padding: 10px 300px;
