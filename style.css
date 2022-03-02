@@ -37,7 +37,6 @@ header{
     border-bottom: 8px solid green ;
     padding: 120px;
     display: inline-block;
-    position: absolute;
 }
 header>span{
 
@@ -58,6 +57,7 @@ header>span{
 
 }
 nav{
+    
     padding: 10px 300px;
     width: 100%;
     height: 50px;
