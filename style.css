@@ -98,6 +98,4 @@ nav ul li a{
     visibility: hidden;
     transition: all 0.2s ease;
 }
-.child:hover{
-    opacity: 1;
-}
+

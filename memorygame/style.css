@@ -1,0 +1,110 @@
+/* Variabes */
+/* Mixin's */
+Body {
+    Background: #82d2e5;
+    Font-Family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    Height: 100%;
+    Color: #Fff;
+    Text-Align: Center;
+    }
+    H1, H2 {
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Weight: 100;
+    Font-Size: 2.6em;
+    Text-Transform: Uppercase;
+    }
+    H3 {
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Weight: 100;
+    Font-Size: 1.4em;
+    Text-Transform: Uppercase;
+    }
+    #Seconds, #Tens {
+    Font-Size: 2em;
+    }
+    Button {
+    -Moz-Border-Radius: 5px;
+    -Webkit-Border-Radius: 5px;
+    Border-Radius: 5px;
+    -Khtml-Border-Radius: 5px;
+    Background: #82d2e5;
+    Color: #Fff;
+    Border: Solid 1px #Fff;
+    Text-Decoration: None;
+    Cursor: Pointer;
+    Font-Size: 1.2em;
+    Padding: 18px 10px;
+    Width: 180px;
+    Margin: 10px;
+    Outline: None;
+    }
+    Button:hover {
+    -Webkit-Transition: All 0.5s Ease-In-Out;
+    -Moz-Transition: All 0.5s Ease-In-Out;
+    Transition: All 0.5s Ease-In-Out;
+    Background: #Fff;
+    Border: Solid 1px #Fff;
+    Color: #82d2e5;
+    }
+    #Container {
+    Width: 630px;
+    Margin: 10px Auto;
+    }
+    #Container:after {
+    Content: "";
+    Display: Table;
+    Clear: Both;
+    }
+    [Data-View="Card"] {
+    Transform: RotateY(180deg);
+    Width: 100px;
+    Height: 140px;
+    Border: Solid 1px #D3cece;
+    Border-Radius: 5px;
+    Float: Left;
+    Margin: 10px;
+    Cursor: Pointer;
+    Background: Linear-Gradient(135deg, #F3f3f3 22px, #Fff 22px, #Fff 24px, Transparent 24px, Transparent 67px, #Fff 67px, #Fff 69px, Transparent 69px), Linear-Gradient(225deg, #F3f3f3 22px, #Fff 22px, #Fff 24px, Transparent 24px, Transparent 67px, #Fff 67px, #Fff 69px, Transparent 69px) 0 64px;
+    Background-Color: #F3f3f3;
+    Background-Size: 64px 128px;
+    }
+    .Flipped {
+    Transition: 0.6s;
+    Transform-Style: Preserve-3d;
+    Position: Relative;
+    Transform: RotateY(0deg);
+    }
+    .Reverse {
+    Transition: 0.6s;
+    Transform-Style: Preserve-3d;
+    Position: Relative;
+    Transform: RotateY(180deg);
+    }
+    .Correct {
+    Opacity: 0.5;
+    Cursor: Default;
+    Transform-Style: Preserve-3d;
+    Position: Relative;
+    Transform: RotateY(0deg);
+    }
+    /* Icons */
+    .Correct[Data-Item="Sass"], .Flipped[Data-Item="Sass"] {
+    Background: Url("Https://Cathydutton.Co.Uk/Images/Tech/Sass.Jpg") Left Center No-Repeat #Fff;
+    Background-Size: Contain;
+    }
+    .Correct[Data-Item="Gulp"], .Flipped[Data-Item="Gulp"] {
+    Background: Url("Https://Cathydutton.Co.Uk/Images/Tech/Gulp.Jpg") Left Center No-Repeat #Fff;
+    Background-Size: Contain;
+    }
+    .Correct[Data-Item="Grunt"], .Flipped[Data-Item="Grunt"] {
+    Background: Url("Https://Cathydutton.Co.Uk/Images/Tech/Grunt.Jpg") Left Center No-Repeat #Fff;
+    Background-Size: Contain;
+    }
+    .Correct[Data-Item="Git"], .Flipped[Data-Item="Git"] {
+    Background: Url("Https://Cathydutton.Co.Uk/Images/Tech/Git.Jpg") Left Center No-Repeat #Fff;
+    Background-Size: Contain;
+    }
+    .Correct[Data-Item="Css"], .Flipped[Data-Item="Css"] {
+    Background: Url("Https://Cathydutton.Co.Uk/Images/Tech/Css.Jpg") Left Center No-Repeat #Fff;
+    Background-Size: Contain;
+    }
